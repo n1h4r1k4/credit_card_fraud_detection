@@ -18,7 +18,7 @@ It leverages **Logistic Regression**, a supervised classification algorithm, to 
 
 ## 📦 Installation
 
-### 🧩 Dependencies
+## 🧩 Dependencies
 Install the following libraries before running the project:
 
 ```bash
