@@ -24,6 +24,7 @@ Install the following libraries before running the project:
 ```bash
 pip install pandas numpy scikit-learn
 
+```
 ⚙️ Data Collection
 📁 Dataset
 
@@ -42,6 +43,11 @@ Time Period: September 2013
 
 Target Column: Class
 
+0 → Normal Transaction
+
+1 → Fraudulent Transaction
+
+Place the dataset (/content/creditcard.csv) in the project directory before running the script.
 0 → Normal Transaction
 
 1 → Fraudulent Transaction
