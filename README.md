@@ -25,7 +25,8 @@ Install the following libraries before running the project:
 pip install pandas numpy scikit-learn
 
 ```
-⚙️ Data Collection
+## ⚙️ Data Collection
+
 📁 Dataset
 
 Download the dataset from Kaggle:
@@ -48,8 +49,14 @@ Target Column: Class
 1 → Fraudulent Transaction
 
 Place the dataset (/content/creditcard.csv) in the project directory before running the script.
-0 → Normal Transaction
 
-1 → Fraudulent Transaction
+## 📂 Files in the Project
+| File Name                        | Description                                             |
+| -------------------------------- | ------------------------------------------------------- |
+| `credit_card_fraud_detection.py` | Main Python script that contains the ML model and logic |
+| `/content/creditcard.csv`                 | Dataset used for training and testing                   |
+| `requirements.txt`               | List of dependencies for easy installation              |
+| `README.md`                      | Project documentation (this file)                       |
 
-Place the dataset (creditcard.csv) in the project directory before running the script.
+### 🧰 Requirements
+Make sure you have **Python 3.8+** installed on your system.
