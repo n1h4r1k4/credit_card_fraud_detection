@@ -18,11 +18,32 @@ It leverages **Logistic Regression**, a supervised classification algorithm, to 
 
 ## 📦 Installation
 
-### 🧰 Requirements
-Make sure you have **Python 3.8+** installed on your system.
-
 ### 🧩 Dependencies
 Install the following libraries before running the project:
 
 ```bash
 pip install pandas numpy scikit-learn
+
+⚙️ Data Collection
+📁 Dataset
+
+Download the dataset from Kaggle:
+👉 Credit Card Fraud Detection Dataset
+
+About the Dataset:
+
+Source: Machine Learning Group – ULB (Université Libre de Bruxelles)
+
+Total Transactions: 284,807
+
+Fraudulent Transactions: 492
+
+Time Period: September 2013
+
+Target Column: Class
+
+0 → Normal Transaction
+
+1 → Fraudulent Transaction
+
+Place the dataset (creditcard.csv) in the project directory before running the script.
